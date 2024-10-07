@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .menu1 {
+        flex-direction:row;
+        align-items: center;
+    }
+
+    .logo img, .search input, .phone img, .branch img, .cart img {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .phone h6, .branch h6, .cart h6, .user h6{
+        font-size: 5px;
+        margin-top: 19%;
+    }
+    .phone a, .branch a, .cart a, .user a{
+        width: 25%;
+    }
+   
+    .search input[type="search"] {
+        width: 100%;
+        padding: 1px 1px;
+        height: 15px;
+        font-size: 10px;
+      }
+}
+
+@media (max-width: 768px) {
+    .search input, .phone img, .branch img, .cart img {
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        
+    }
+
+    .menu.open {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+ 
+    .menu ul li a {
+        font-size:5px;
+    }
+    .select1 select{
+        font-size: 5px;
+    }
+    .logo img{
+        width: 70%;
+    }
+
+    
+
+}

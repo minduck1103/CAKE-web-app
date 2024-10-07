@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+    .sidebar{
+        margin-top: 25%;
+    }
+    .between1 h3{
+        font-size:20px ;
+    }
+
+    .image img {
+        border-radius: 5% 5% 0 0;
+        width: 100%;
+      }
+      
+      .image {
+        transform-origin: center;
+      
+      }
+      .image {
+        overflow: hidden;
+        /* To hide the part of the image that overflows the container */
+      }
+      
+      .image img {
+        transition: transform 0.3s ease;
+      }
+      
+      .image:hover img {
+        transform: scale(1.1);
+        /* Scale the image up on hover */
+      }
+      .nameCake {
+        padding: 1%;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+      }
+      
+      .nameCake h3 {
+        font-weight: bolder;
+        font-size: 5px;
+      }
+      .nameCake h6 {
+        font-weight: bolder;
+        font-size: 5px;
+      }
+      .a {
+        padding: 10px;
+        border-radius: 5%;
+      }
+      .price2 {
+        width: 50%;
+        background-color: #3d1a1a;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-top-right-radius: 10px;
+      }
+      
+      .price1 {
+        width: 50%;
+        background-color: #c0c906;
+        border-radius: 0 0 0 5px;
+        text-align: center;
+        height: 25px;
+      }
+      
+      .price1 p {
+        font-weight: bold;
+        font-size: 5px;
+      }
+      .price {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+      }
+      .btas {
+        color: #ffffff;
+        background-color: #3d1a1a;
+        margin-left: -4%;
+        margin-top: -1%;
+      }
+      .price svg {
+        font-size: 0.4rem;
+      }
+      .showAll_cakeid {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 5px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      
+      }
+      
+      .showAll_cakeid {
+        background-color: #3d1a1a;
+        color: #fff;
+        margin-left: 40%;
+        margin-top: 4%;
+      }
+      
+      .showAll_cakeid:hover {
+        background-color: #b2bd18;
+        display: inline;
+      
+      }
+      
+      .showAll_cakeid a {
+        font-size: 5px;
+        color: white;
+        text-decoration: none;
+      }
+}

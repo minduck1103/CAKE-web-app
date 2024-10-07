@@ -1,0 +1,618 @@
+/* BirthcakeSection.css */
+.birthdayCake-title {
+  color: #c0c906;
+  /* Keep the orange color */
+  font-size: 50px;
+  /* Increase the font size to 32 pixels */
+  font-weight: bold;
+  /* Make the text bold */
+  margin-bottom: 0;
+  /* Add some spacing below the title */
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2%;
+}
+
+.between1 img {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #3d1a1a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Dropdown.css */
+
+/* chỉnh div tự động xuống dòng*/
+
+.a {
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.between2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.between1 {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* chỉnh ảnh*/
+.image img {
+  border-radius: 5% 5% 0 0;
+  width: 100%;
+}
+
+.image {
+  transform-origin: center;
+
+}
+
+.image:hover {
+  animation: bounce 2s ease-in-out;
+}
+
+.sidebar {
+  margin-top: 12%;
+}
+
+.image {
+  overflow: hidden;
+  /* To hide the part of the image that overflows the container */
+}
+
+.image img {
+  transition: transform 0.3s ease;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+  /* Scale the image up on hover */
+}
+
+/* chỉnh ảnh*/
+
+
+/* chỉnh all*/
+.all {
+  background-color: #f8f2e8;
+}
+
+.nameCake {
+  padding: 1%;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.nameCake h3 {
+  font-weight: bolder;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+}
+
+.price1 {
+  width: 40%;
+  background-color: #c0c906;
+  border-radius: 0 0 0 15px;
+  float: left;
+  text-align: center;
+}
+
+.price1 p {
+  margin-top: 12%;
+  font-weight: bold;
+
+}
+
+.price2 {
+  width: 20%;
+  background-color: #3d1a1a;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top-right-radius: 10px;
+}
+
+.price svg {
+  font-size: 1.2rem;
+}
+
+/* chỉnh all*/
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex-basis: 30%;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section ul {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* phân trang*/
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination button.active {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid #007bff;
+}
+
+.pagination span {
+  margin: 0 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+/*navbar*/
+
+
+.menu1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 50%;
+  float: right;
+}
+
+.search input {
+  width: 50%;
+  margin-left: 2%;
+}
+
+.phone img,
+.branch img,
+.cart img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.cart img {
+  width: 20%;
+}
+
+.cart h6 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.search .fa-magnifying-glass:hover {
+  color: #333;
+  /* Change the icon color on hover */
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  /* Make the text bold */
+  font-size: 10px;
+  /* Increase the font size */
+  color: #333;
+  /* Set the text color */
+  text-decoration: none;
+  /* Remove the underline */
+  transition: color 0.3s ease;
+  /* Add a smooth transition for the color */
+}
+
+.menu li a:hover {
+  color: #d2d51f;
+  /* Change the text color on hover */
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.search {
+  position: relative;
+  margin: 0 auto;
+  /* Căn giữa thanh tìm kiếm */
+}
+
+.search input[type="search"] {
+  padding: 5px 15px;
+  /* Thêm khoảng đệm trong thanh tìm kiếm */
+  border: 2px solid #ddd;
+  /* Đặt viền cho thanh tìm kiếm */
+  border-radius: 25px;
+  /* Làm tròn các góc của thanh tìm kiếm */
+  font-size: 16px;
+  /* Tăng kích thước chữ */
+  outline: none;
+  /* Loại bỏ viền khi nhấp vào */
+  transition: border-color 0.3s;
+  /* Hiệu ứng chuyển đổi màu viền */
+  width: 90%;
+}
+
+.search input[type="search"]:focus {
+  border-color: #555;
+  /* Thay đổi màu viền khi tập trung vào thanh tìm kiếm */
+}
+
+.search input[type="search"]::placeholder {
+  color: #aaa;
+  /* Đặt màu cho placeholder */
+  font-style: italic;
+  /* Đặt kiểu chữ cho placeholder */
+}
+
+.phone h6,
+.branch h6,
+.user h6 {
+  margin-top: 5%;
+  color: #fff;
+}
+
+.phone a,
+.branch a,
+.cart a,
+.user a {
+  width: 20%;
+  color: #dc4c4c;
+  text-decoration: none;
+
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: none;
+  /* Bỏ dấu tam giác mũi tên */
+  padding: 0.5rem;
+  border: 1px solid #ddd0;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #333;
+  font-weight: bold;
+  background-color: #ddd0;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #ddd0;
+  box-shadow: 0 0 0 0.2rem rgba(102, 175, 233, 0.25);
+}
+
+/* Styles for the cakecook li */
+.cakecook {
+  position: relative;
+  list-style-type: none;
+}
+
+.cakecook a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styles for the dropdown menu */
+.cakecook .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.cakecook:hover .dropdown-menu {
+  display: block;
+}
+
+.cakecook .dropdown-menu li {
+  list-style-type: none;
+}
+
+.cakecook .dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.cakecook .dropdown-menu li a:hover {
+  background-color: #e6e6e6;
+}
+
+/* Styles for the cakecook li */
+.Banhsn {
+  position: relative;
+  list-style-type: none;
+}
+
+.Banhsn a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styles for the dropdown menu */
+.Banhsn .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.Banhsn:hover .dropdown-menu {
+  display: block;
+}
+
+.Banhsn .dropdown-menu li {
+  list-style-type: none;
+}
+
+.Banhsn .dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.Banhsn .dropdown-menu li a:hover {
+  background-color: #e6e6e6;
+}
+
+.btas {
+  border: none;
+  color: #ffffff;
+  background-color: #3d1a1a;
+  margin-left: 20%;
+  font-size: 10px;
+}
+
+.small-icon {
+  font-size: 10px;
+}
+
+
+.showAll_cakeid {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.showAll_cakeid {
+  background-color: #3d1a1a;
+  color: #fff;
+  margin-left: 45%;
+  margin-top: 4%;
+}
+
+.showAll_cakeid:hover {
+  background-color: #b2bd18;
+  display: inline;
+
+}
+
+.showAll_cakeid a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.home-order {
+  height: 500px;
+
+}
+.home-oder-all{
+  width: 40%;
+  margin-left: 20%;
+}
+.home-order-input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto; /* Center the form */
+}
+
+.home-order-input label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.home-order-input input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.home-order-input input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.home-order-input input::placeholder {
+  font-style: italic;
+  color: #aaa;
+}
+.home-oder {
+  background-image: url('https://theme.hstatic.net/1000313040/1000406925/14/banform.jpg?v=2133');
+  background-size: cover; /* Ensures the image covers the div */
+  color: white; /* Adjust text color for visibility */
+}
+
+.home-oder-all {
+  background-color: rgba(0, 0, 0, 0.6); /* Adds a slight overlay for readability */
+  border-radius: 8px;
+  padding: 4%;
+  
+}
+
+.home-order-input input {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for inputs */
+}
+.home-name h3{
+  color: #c0c906;
+}
+.home-order-input label{
+  color: white;
+}
+.home-name{
+  text-align: center;
+}
+.cah{
+  background-color: #f8f2e8;
+  height: 50px;
+}
+
+/**/
+.news11{
+  text-align: center;
+}
+.cah1{
+  background-color: #f8f2e8;
+  height: 100px;
+}
+.news-oder{
+  background-color:#f8f2e8 ;
+}
+
+.new12-oder{
+  display: flex;
+  width: 80%;
+  margin-left:10% ;
+  margin-top: 5%;
+}
+.new121-oder{
+  width: 40%;
+
+}
+.new122-oder{
+  width: 40%;
+  margin-left: 10%;
+}

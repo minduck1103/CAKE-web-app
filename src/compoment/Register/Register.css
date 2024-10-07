@@ -1,0 +1,79 @@
+.reginter-sidebar {
+    background-color: #f8f9fa;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url(//theme.hstatic.net/1000313040/1000406925/14/breadcrumb_bg.png?v=2115);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-size: cover; /* Scale the image to cover the entire element */
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.reginter-sidebar h2 {
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    font-Family: '"Dancing Script", cursive';
+    background-position: center;
+    margin-top: 10%;
+}
+.reginter-sidebar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Increase the opacity to make the image darker */
+    z-index: -1;
+  }
+
+
+  .reginter-all {
+    display: flex;
+    background-color: rgb(245, 234, 220);
+    padding: 2%;
+}
+
+.reginter-bw1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+
+}
+.reginter-bw1 hr{
+    width: 30%;
+    margin-left: 35%;
+}
+
+.reginter-form {
+    text-align: center;
+}
+
+.reginter-form-group {
+    margin-bottom: 1.5rem;
+}
+
+.reginter-form-group1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.reginter-from-button{
+    margin-top: 2%;
+}
+.reginter-form_group2 a{
+    text-decoration: none;
+    color: black;
+}
+.reginter-form_group2{
+    margin-top: 2%;
+}
